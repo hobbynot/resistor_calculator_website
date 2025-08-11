@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+
+.contener{
+    border: 2px solid red;
+    display: flex;    
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin: 5px 29px;
+    font-weight: bold;
+}
+.nav-bar{
+display: flex;
+padding: 0px;
+margin: 0px 143px;
+}
+.nav-bar li{
+list-style: none;
+margin: 7px 4px;
+padding: 6px 23px;
+}
+.nav-bar li a{
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+}
+.calcname{
+    height: 38px;
+    text-align: center;
+    margin: 6px;
+    /* padding: 5px; */
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+
+}
+.selectband{
+    display: flex;
+    flex-direction: row;   
+    font-size: larger;
+}
+.band{
+    margin: 2px 20px;
+}
+.band input{
+    cursor: pointer;
+}
+.resistor-compontent{
+    position: relative;
+    /* height: 65vh; */
+    /* border: 2px solid red; */
+}
+.resistor-pic{
+
+    /* border: 2px solid blue; */
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 150px;
+    width: 34px;
+    border: 1px solid black;
+    box-shadow: 2;
+}
+.box1{
+    width: 25%;
+    height: 10px;
+    border-right: none;
+    background-color: darkgray;
+}
+.box2{
+    width: 10%;
+    /* height: 30vh; */
+    border-radius: 45px;
+    border-right: none;
+    background-color: #f1ba8b;
+}
+.box3{
+    height: 114px;
+    width: 23%;
+    border-radius: 23px;
+    border-left: none;
+    border-right: none;  
+    background-color: #f1ba8b;
+    display: flex;
+    flex-direction: row;
+}
+.box4{
+    width: 10%;
+    /* height: 30vh; */
+    border-radius: 45px;
+    border-left: none;
+    background-color: #f1ba8b;
+}
+.box5{
+    width: 25%;
+    height: 10px;
+    border-left: none;
+    background-color: darkgray;
+}
+.band1{
+    border: 1px solid black;
+    width: 22%;
+    height: 100%;
+    margin: 0px auto;
+    border-radius: 0px;
+}
+.band-col{
+    border: 1px solid black;
+    width: 10%;
+    height: 100%;
+    margin: 0px auto;
+    border-radius: 0px;
+    border-top: none;
+    border-bottom: none;
+    
+}
+.band6{
+    
+    border: 1px solid black;
+    width: 22%;
+    height: 100%;
+    margin: 0px auto;
+}
+.select-band-colour{
+    display: block;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    top: 86%;
+    /* height: 20vh; */
+    font-size: 28px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.select-colour{
+    background-color: aqua;
+    height: 34px;
+    width: 6%;
+    margin: 0px 1px;
+
+}
+.colour-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid black; */
+    border-radius: 34px;
+    width: 93px;
+    position: absolute;
+    display: none;
+}
+.colour-list li{
+    text-align: center;
+    border: 2px solid black;
+    width: 60%;
+    margin: 0px auto;
+    
+}
+.band1:hover .colour-list{
+    display:block;
+    transition: all ease-in;
+    cursor: pointer;
+    
+}
+.band2:hover .colour-list{
+    display:block;
+    transition: all ease-in;
+    cursor: pointer;
+    
+}
+.band3:hover .colour-list{
+    display:block;
+    transition: all ease-in;
+    cursor: pointer;
+    
+}
+.band4:hover .colour-list{
+    display:block;
+    transition: all ease-in;
+    cursor: pointer;
+    
+}
+.band5:hover .colour-list{
+    display:block;
+    transition: all ease-in;
+    cursor: pointer;
+    
+}
+.band6:hover .colour-list{
+    display:block;
+    transition: all ease-in;
+    cursor: pointer;
+    
+}
+
+.result {
+   
+
+    border: 2px solid red;
+    align-items: center;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 30px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+#value{
+    display:none;
+}
+#btn_div{
+
+}
+.btn{
+padding: 1rem 3rem;
+outline: none;
+font-size: 400;
+display: block;
+margin: auto;
+border: none;
+text-transform: uppercase;
+color: #fff;
+background-color: #47b9ff;
+margin-top: 4rem;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: #0984e3;
+    transform: scale(1.2);
+    transition: all ease-in-out ;
+}
